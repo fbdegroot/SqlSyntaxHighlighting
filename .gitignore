@@ -1,0 +1,10 @@
+*.suo
+*.docstates
+*.user
+*.testsettings
+*.vsmdi
+*.ReSharper.user
+_Resharper*
+bin/
+obj/
+/Packages
