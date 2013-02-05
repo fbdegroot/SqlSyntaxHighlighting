@@ -13,7 +13,7 @@ namespace SqlSyntaxHighlighting
 	{
 		private readonly char[] keywordPrefixCharacters = new[] { '\t', ' ', '"', '(' };
 		private readonly char[] keywordPostfixCharacters = new[] { '\t', ' ', '"', ')' };
-		private readonly char[] functionPrefixCharacters = new[] { '\t', ' ', '"', ',' };
+		private readonly char[] functionPrefixCharacters = new[] { '\t', ' ', '"', ',', '(' };
 		private readonly char[] functionPostfixCharacters = new[] { '\t', '(' };
 
 		private readonly List<string> keywords = new List<string> {
