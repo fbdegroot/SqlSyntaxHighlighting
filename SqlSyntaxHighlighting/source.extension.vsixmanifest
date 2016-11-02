@@ -7,13 +7,15 @@
 		<Description xml:space="preserve">Adds basic SQL syntax highlighting (keywords, functions and variables) to string literals.</Description>
 		<Locale>1033</Locale>
 		<SupportedProducts>
-			<VisualStudio Version="11.0">
-				<Edition>Ultimate</Edition>
-				<Edition>Premium</Edition>
-				<Edition>Pro</Edition>
-			</VisualStudio>
+      <VisualStudio Version="14.0">
+        <Edition>Community</Edition>
+        <Edition>Pro</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Ultimate</Edition>
+        <Edition>Enterprise</Edition>
+      </VisualStudio>
 		</SupportedProducts>
-		<SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+		<SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.6" />
 	</Identifier>
 	<References />
 	<Content>
